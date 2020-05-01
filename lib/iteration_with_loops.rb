@@ -1,7 +1,6 @@
 require 'pry'
 
 def find_min_in_nested_arrays(src)
-  binding.pry
   min_temps = []
   row_count = 0 
   while row_count < src.length do
