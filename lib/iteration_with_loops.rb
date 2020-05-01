@@ -12,7 +12,7 @@ def find_min_in_nested_arrays(src)
       end
       index_count += 1 
     end
-  min_temps.push(min_temp)
+  min_temps << min_temp
   row_count += 1
   end
 p min_temps   
