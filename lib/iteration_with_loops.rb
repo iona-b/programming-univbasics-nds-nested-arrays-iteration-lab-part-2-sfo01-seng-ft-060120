@@ -7,11 +7,11 @@ def find_min_in_nested_arrays(src)
     while index_count < src.length[row_count] do
       if min_temp < src[row_count][index_count]
         min_temp = src[row_count][index_count]
-        min_temps.push(min_temp)
+        min_temps.push(src[row_count][index_count])
       end
       index_count += 1 
     end
   row_count += 1
   end
-  min_temps   
+p min_temps   
 end
